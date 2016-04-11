@@ -1,0 +1,15 @@
+
+# Name of your blog (this will show up at the top of your page and in the RSS feed)
+name: Gold Coin Balance
+
+url: http://goldcoinbalance.com/
+
+twitter:
+  username: goldcoinbalance
+
+# seems that this plugin picks up other .html files under bower components
+#gems:
+#  - jekyll-sitemap
+
+gems:
+  - jekyll-seo-tag

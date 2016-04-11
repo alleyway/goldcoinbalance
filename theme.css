@@ -1,0 +1,83 @@
+body {
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+    position: static;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+    margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+    width: auto;
+}
+
+.navbar-custom {
+    background-color: #2F3436;
+
+}
+
+.navbar-custom .nav > li > a {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: .02em;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+.navbar-custom .nav > li.active > a {
+    color: #FFBE2C;
+}
+
+a.navbar-brand {
+    font-weight: bold;
+    color: #FFBE2C;
+    text-shadow: none;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    font-size: 24px;
+}
+
+.intro {
+    padding-top: 60px;
+    background-color: #2F3436;
+    color: white;
+}
+
+.navbar-nav>li, .navbar-nav {
+    float: left !important;
+}
+
+.navbar-nav {
+    margin: 0 -15px;
+}
+
+.brand {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    font-size: 24px;
+    color: #FFBE2C;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.2em;
+    letter-spacing: .04em;
+    color: #F7F3F2;
+}
