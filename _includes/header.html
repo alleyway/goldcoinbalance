@@ -40,19 +40,24 @@
 
 <!-- Fixed navbar -->
 <nav class="navbar navbar-custom navbar-fixed-top ">
-    <div class="container ">
-        <div class="navbar-header">
-            <a class="navbar-brand hidden-xs" href="/">Gold Coin Balance&#8482;</a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-2">
+                <div class="navbar-header">
+                    <a class="navbar-brand hidden-xs" href="/">Gold Coin Balance&#8482;</a>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div id="navbar" class="navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li {% if page.active == "home" %} class='active'{% endif %}><a href="/">Home</a></li>
+                        <li {% if page.active == "why" %} class='active'{% endif %}><a href="/why-buy-gold">Why Buy Gold?</a></li>
+                        <li {% if page.active == "order" %} class='active'{% endif %}><a href="/order-now">Order</a></li>
+                        <li {% if page.active == "blog" %} class='active'{% endif %}><a href="/blog">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div id="navbar" class="navbar-right">
-            <ul class="nav navbar-nav">
-                <li {% if page.active == "home" %} class='active'{% endif %}><a href="/">Home</a></li>
-                <li {% if page.active == "why" %} class='active'{% endif %}><a href="/why-buy-gold">Why Buy Gold?</a></li>
-                <li {% if page.active == "order" %} class='active'{% endif %}><a href="/order-now">Order</a></li>
-                <li {% if page.active == "blog" %} class='active'{% endif %}><a href="/blog">Blog</a></li>
-            </ul>
-        </div>
-
     </div>
     <hr style="color:#fff; margin: 5px 10px;" class="visible-xs"/>
 </nav>

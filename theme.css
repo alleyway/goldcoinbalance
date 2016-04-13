@@ -33,6 +33,11 @@ body {
     padding-right: 9px;
 }
 
+.navbar-custom .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
 body {
     font-family: 'Lora', serif;
     color: #4C5E52;
@@ -93,6 +98,21 @@ h3 {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     margin-top: 30px;
+}
+
+.faq h2 {
+    font-size: 22px;
+}
+
+.faq h3 {
+    font-size: 16px;
+    color: #4C5E52;
+    text-transform: capitalize;
+}
+
+.faq p {
+    color: black;
+    font-size: smaller;
 }
 
 .btn {
@@ -316,4 +336,14 @@ footer {
     margin:0;
 
     white-space:nowrap;
+}
+
+.faq {
+    padding-top: 40px;
+
+}
+.faq h2 {
+    color: #2F3436;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
 }
