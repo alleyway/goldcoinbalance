@@ -2,8 +2,18 @@
 layout: base
 active: blog
 title: Blog - Gold Coin Balance
+permalink: /blog
 description: Gold holds its value
 ---
 
-The Blog goes here
-
+<div class="max">
+    {% for post in site.posts limit: 20 %}
+    <div class="blogContent" itemscope itemtype="http://schema.org/Article">
+        <a href="{{ site.prefix }}{{ post.url }}"itemprop="url" ><h2 class="blogTitle" itemprop="name">{{ post.title }}</h2></a>
+        <article>
+            <p class="meta" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
+            <p itemprop="description">{{ post.description }} <br><a href="{{ post.url }}"> Read more...</a></p>
+        </article>
+    </div>
+    {% endfor %}
+</div>

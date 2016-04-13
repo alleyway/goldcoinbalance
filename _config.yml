@@ -7,6 +7,9 @@ url: http://goldcoinbalance.com/
 twitter:
   username: goldcoinbalance
 
+
+permalink: /:title
+
 # seems that this plugin picks up other .html files under bower components
 #gems:
 #  - jekyll-sitemap
