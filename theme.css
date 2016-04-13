@@ -202,6 +202,28 @@ footer {
     color: #B2B27F;
 }
 
+.price-container {
+    float:right;
+
+    position:relative;
+    left:-50%;
+    text-align:left;
+
+}
+
+.price-container ul {
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+
+.price-container li {
+    /*float:left;*/
+    position:relative;
+    margin-bottom: 10px;
+}
+
+
 .price-list {
     list-style:none;
 }
@@ -357,4 +379,18 @@ footer {
 
 .thumbnail .caption {
     font-size: smaller;
+}
+
+.gcb-sidebar {
+
+}
+
+.gcb-name {
+    font-weight: bold;
+    color: #4C5E52;
+    text-shadow: none;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    font-size: 22px;
+    margin-bottom: 20px;
 }
