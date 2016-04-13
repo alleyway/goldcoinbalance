@@ -348,3 +348,13 @@ footer {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
 }
+
+.blog-list h2 {
+    color: #2F3436;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+.thumbnail .caption {
+    font-size: smaller;
+}
