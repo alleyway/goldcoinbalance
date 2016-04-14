@@ -66,7 +66,7 @@ description: Order the Gold Coin Balance here!
                             </div>
                             <div style="clear: both">&nbsp;</div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 text-center">
 
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                 <input type="hidden" name="cmd" value="_s-xclick">
@@ -79,10 +79,38 @@ description: Order the Gold Coin Balance here!
                                 </select> </td></tr>
                                 </table>
                                 <input type="hidden" name="currency_code" value="USD">
-                                <input type="hidden" name="return" value="https://goldcoinbalance.com/thank-you?amount=1.99">
+                                <input type="hidden" name="return" value="https://goldcoinbalance.com/thank-you"/>
                                 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                             </form>
+
+                            <script>
+
+                                $(function() {
+                                    var quantityElement = $("form select[name=os0]");
+                                    quantityElement.change(function(){
+                                        var	val = quantityElement.val();
+
+                                        var optionVal = $("option[value='" + val + "']").text();
+
+                                        var str = optionVal.replace(/^.*?\$/i, "");
+                                        str = str.replace(/[\sA-Za-z]/ig, "");
+
+                                        $("input[name=return]").remove();
+
+                                        $("<input>", {
+                                            type: "hidden",
+                                            name: "return",
+                                            value: "https://goldcoinbalance.com/thank-you?amount=" + str
+                                        }).appendTo($("form[action='https://www.paypal.com/cgi-bin/webscr']"));
+
+                                    }).change();
+
+
+
+                                });
+
+                            </script>
                         </div>
                     </div>
                 </div>

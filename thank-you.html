@@ -41,4 +41,17 @@ description: Thanks for purchasing your Gold Coin Balance
     </div>
 
 </div>
+<script>
 
+
+    var amount = $.urlParam("amount");
+
+    ga('ecommerce:addTransaction', {
+        'id': '1234',                     // Transaction ID. Required.
+        'affiliation': 'GCB Website',   // Affiliation or store name.
+        'revenue': amount               // Grand Total.
+    });
+
+    ga('ecommerce:send');
+
+</script>
