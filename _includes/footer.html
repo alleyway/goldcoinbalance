@@ -60,6 +60,27 @@
 
 </script>
 
+<script >
+
+    //http://localhost:4000/thank-you?&tx=1P89259341442352N&st=Completed&amt=0%2e36&cc=USD&cm=&item_number=
+
+
+    var status = $.urlParam("st");
+
+    if (status == "Completed") {
+        ga('ecommerce:addTransaction', {
+            'id': $.urlParam("tx"),                     // Transaction ID. Required.
+            'affiliation': 'GCB Website',   // Affiliation or store name.
+            'revenue': $.urlParam("amt")
+        });
+
+        ga('ecommerce:send');
+    }
+
+
+</script>
+
+
 </body>
 
 </html>
