@@ -71,10 +71,11 @@
         ga('ecommerce:addTransaction', {
             'id': $.urlParam("tx"),                     // Transaction ID. Required.
             'affiliation': 'GCB Website',   // Affiliation or store name.
-            'revenue': $.urlParam("amt")
+            'revenue': decodeURIComponent($.urlParam("amt"))
         });
 
         ga('ecommerce:send');
+
     }
 
 
