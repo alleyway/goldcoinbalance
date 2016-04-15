@@ -1,3 +1,4 @@
 User-agent: *
 Sitemap: https://goldcoinbalance.com/sitemap.xml
-
+Disallow: /thank-you
+Disallow: /thank-you.html
