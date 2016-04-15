@@ -17,8 +17,7 @@
                 <header class="post-header">
 
                     <p class="meta" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} •
-                        {{
-                        page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                        <span itemprop="author">{{page.author }}</span>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
                 </header>
                 <div class="postContainer">
 
