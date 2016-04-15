@@ -22,14 +22,19 @@
 </url>
 <url>
 <loc>https://goldcoinbalance.com/blog</loc>
+    <priority>0.50</priority>
 </url>
 <url>
 <loc>https://goldcoinbalance.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
 </url>
 <url>
 <loc>https://goldcoinbalance.com/order-now</loc>
+    <priority>0.50</priority>
 </url>
 <url>
 <loc>https://goldcoinbalance.com/why-buy-gold</loc>
+    <priority>0.50</priority>
 </url>
 </urlset>
