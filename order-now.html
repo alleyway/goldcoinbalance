@@ -88,6 +88,14 @@ description: Order the Gold Coin Balance here!
                 </div>
             </div>
 
+            <script type="text/javascript">
+                $(function() {
+                    $("input[name='submit']").on("click", function(){
+                        ga('send', 'event', "Button", "PayPal Button Clicked");
+                    });
+                });
+            </script>
+
 
             <h3>Free shipping worldwide</h3>
 
