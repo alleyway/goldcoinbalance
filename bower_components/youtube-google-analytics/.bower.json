@@ -1,0 +1,24 @@
+{
+  "name": "youtube-google-analytics",
+  "version": "8.1.0",
+  "homepage": "https://github.com/lunametrics/youtube-google-analytics",
+  "authors": [
+    "Dan Wilkerson <notdanwilkerson@gmail.com>"
+  ],
+  "description": "YouTube Google Analytics Embed Tracking",
+  "main": "lunametrics-youtube.gtm.js",
+  "keywords": [
+    "youtube",
+    "analytics"
+  ],
+  "license": "Creative Commons 4.0 International Public License",
+  "_release": "8.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v8.1.0",
+    "commit": "914f864e1e5bd2aaba0ec4492f2718b25e5f2c0e"
+  },
+  "_source": "https://github.com/lunametrics/youtube-google-analytics.git",
+  "_target": "v8.1.0",
+  "_originalSource": "https://github.com/lunametrics/youtube-google-analytics.git"
+}

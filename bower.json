@@ -6,7 +6,8 @@
     "jquery.easing": "~1.3.1",
     "bootstrap": "~3.3.5",
     "jqBootstrapValidation": "1.3.7",
-    "fontawesome": "~4.5.0"
+    "fontawesome": "~4.5.0",
+    "youtube-google-analytics": "https://github.com/lunametrics/youtube-google-analytics.git#v8.1.0"
   },
   "private": true
 }
