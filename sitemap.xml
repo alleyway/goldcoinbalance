@@ -1,40 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://goldcoinbalance.com/fake-tungsten-gold-coins</loc>
-<lastmod>2014-06-12T06:52:18-04:00</lastmod>
-</url>
-<url>
-<loc>https://goldcoinbalance.com/government-mint-created-counterfeit-coins</loc>
-<lastmod>2013-02-04T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>https://goldcoinbalance.com/tungsten-gold-coins</loc>
-<lastmod>2012-10-09T00:00:00-04:00</lastmod>
-</url>
-<url>
-<loc>https://goldcoinbalance.com/old-time-gold-coin-scales</loc>
-<lastmod>2011-11-21T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>https://goldcoinbalance.com/how-to-make-the-perfect-fake-gold-coin</loc>
-<lastmod>2011-10-20T00:00:00-04:00</lastmod>
-</url>
-<url>
-<loc>https://goldcoinbalance.com/blog</loc>
-    <priority>0.50</priority>
-</url>
-<url>
-<loc>https://goldcoinbalance.com/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-<loc>https://goldcoinbalance.com/order-now</loc>
-    <priority>0.50</priority>
-</url>
-<url>
-<loc>https://goldcoinbalance.com/why-buy-gold</loc>
-    <priority>0.50</priority>
-</url>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://goldcoinbalance.com/chinese-fake-gold-coins</loc>
+        <lastmod>2016-04-21T00:00:00-04:00</lastmod>
+    </url>
+    <url>
+        <loc>https://goldcoinbalance.com/fake-tungsten-gold-coins</loc>
+        <lastmod>2014-06-12T06:52:18-04:00</lastmod>
+    </url>
+    <url>
+        <loc>https://goldcoinbalance.com/government-mint-created-counterfeit-coins</loc>
+        <lastmod>2013-02-04T00:00:00-05:00</lastmod>
+    </url>
+    <url>
+        <loc>https://goldcoinbalance.com/tungsten-gold-coins</loc>
+        <lastmod>2012-10-09T00:00:00-04:00</lastmod>
+    </url>
+    <url>
+        <loc>https://goldcoinbalance.com/old-time-gold-coin-scales</loc>
+        <lastmod>2011-11-21T00:00:00-05:00</lastmod>
+    </url>
+    <url>
+        <loc>https://goldcoinbalance.com/how-to-make-the-perfect-fake-gold-coin</loc>
+        <lastmod>2011-10-20T00:00:00-04:00</lastmod>
+    </url>
+    <url>
+        <loc>https://goldcoinbalance.com/blog</loc>
+        <priority>0.50</priority>
+    </url>
+    <url>
+        <loc>https://goldcoinbalance.com/</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://goldcoinbalance.com/order-now</loc>
+        <priority>0.50</priority>
+    </url>
+    <url>
+        <loc>https://goldcoinbalance.com/why-buy-gold</loc>
+        <priority>0.50</priority>
+    </url>
 </urlset>
