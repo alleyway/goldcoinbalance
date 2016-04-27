@@ -136,6 +136,10 @@ h4 {
     -webkit-border-radius: 40px 40px 40px 40px;
 }
 
+a.btn-order:hover, a.btn-order:focus {
+    background-color: #FFBE2C;
+    color: #2F3436;
+}
 
 footer {
     border-top: 2px solid #FFBE2C;
