@@ -126,6 +126,8 @@ h4 {
     text-transform: uppercase;
 }
 
+/*http://www.colorzilla.com/gradient-editor/*/
+
 .btn-order {
     background: none;
     font-size: 16px;
@@ -134,14 +136,21 @@ h4 {
     border-radius: 30px 30px 30px 30px;
     -moz-border-radius: 30px 30px 30px 30px;
     -webkit-border-radius: 30px 30px 30px 30px;
+    background: #fceabb;
+    background: -moz-linear-gradient(top,  #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
+    background: -webkit-linear-gradient(top,  #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%);
+    background: linear-gradient(to bottom,  #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 );
+    color: #2F3436;
+
 }
 
 a.btn-order:hover, a.btn-order:focus {
-    background: #b4ddb4;
-    background: -moz-linear-gradient(top,  #b4ddb4 0%, #83c783 0%, #52b152 33%, #008a00 82%, #005e04 100%);
-    background: -webkit-linear-gradient(top,  #b4ddb4 0%,#83c783 0%,#52b152 33%,#008a00 82%,#005e04 100%);
-    background: linear-gradient(to bottom,  #b4ddb4 0%,#83c783 0%,#52b152 33%,#008a00 82%,#005e04 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#005e04',GradientType=0 );
+    background: #f9c2bb;
+    background: -moz-linear-gradient(top,  #f9c2bb 0%, #f9674d 50%, #f72000 51%, #f99593 100%);
+    background: -webkit-linear-gradient(top,  #f9c2bb 0%,#f9674d 50%,#f72000 51%,#f99593 100%);
+    background: linear-gradient(to bottom,  #f9c2bb 0%,#f9674d 50%,#f72000 51%,#f99593 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c2bb', endColorstr='#f99593',GradientType=0 );
 
 }
 
