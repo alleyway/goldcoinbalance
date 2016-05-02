@@ -84,8 +84,9 @@ a {
 }
 
 h1 {
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
+    /*font-family: "Montserrat", sans-serif;*/
+    letter-spacing: .03em;
+    color: #FFBE2C;
 }
 
 h2 {
