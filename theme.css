@@ -59,6 +59,7 @@ a.navbar-brand {
 
 .intro {
     padding-top: 60px;
+    padding-bottom: 30px;
     background-color: #2F3436;
     color: white;
 }
@@ -427,4 +428,33 @@ footer {
     letter-spacing: .03em;
     font-size: 22px;
     margin-bottom: 20px;
+}
+.network-container {
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+}
+
+.network-container h3 {
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+
+.network-container ul {
+    list-style:none;
+    position:relative;
+    left:50%;
+    margin: 0px;
+}
+
+.network-container li {
+    /*float:left;*/
+    position:relative;
+    /*display: inline-block;*/
+}
+
+.network-container li img {
+    height: 40px;
 }
