@@ -8,6 +8,10 @@ Frontend website for <a href="https://goldcoinbalance.com">Gold Coin Balance</a>
    run "bundle update" now and again
 
 
+### local editing
+
+   run "bundle exec jekyll serve"
+
 
 ##
 

@@ -2,6 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://goldcoinbalance.com/gold-vs-bitcoin</loc>
+        <lastmod>2017-02-19T00:00:00-04:00</lastmod>
+    </url>
     <url>
         <loc>https://goldcoinbalance.com/chinese-fake-gold-coins</loc>
         <lastmod>2016-04-21T00:00:00-04:00</lastmod>
